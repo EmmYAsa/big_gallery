@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея картинок і відео</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Gallery</h1>
+    <div class="options">
+        <div class="container-radio">
+            <input type="radio" id="image" name="mediaType" value="images" checked>
+            <label for="image">img</label><br>
+
+            <input type="radio" id="video" name="mediaType" value="videos">
+            <label for="video">video</label><br>
+        </div>
+
+        <div class="container-select-type">
+            <div class="img-select">
+                <article>
+                    <label for="image_type">image type</label>
+                    <br>
+                    <input type="text" id="image_type">
+                </article>
+                <article>
+                    <label for="img_category">category</label>
+                    <br>
+                    <input type="text" id="img_category">
+                </article>
+                <article>
+                    <label for="colors">colors</label>
+                    <br>
+                    <input type="text" id="colors">
+                </article>
+                <article>
+                    <label for="img_per_page">per page</label>
+                    <br>
+                    <input type="text" id="img_per_page">
+                </article>
+            </div>
+
+            <div class="video-select hidden">
+                <article>
+                    <label for="video_type">video type</label>
+                    <br>
+                    <input type="text" id="video_type">
+                </article>
+                <article>
+                    <label for="video_category">category</label>
+                    <br>
+                    <input type="text" id="video_category">
+                </article>
+                <article>
+                    <label for="video_per_page">per page</label>
+                    <br>
+                    <input type="text" id="video_per_page">
+                </article>
+            </div>
+        </div>
+        <button class="load">load</button>
+    </div>
+    <div class="content"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

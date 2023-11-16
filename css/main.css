@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f1ff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #52489c;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+}
+
+div.options{
+    width: 900px;
+    background-color: #1B998B;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+div.container-radio{
+    width: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+div.container-radio input{
+    margin-right: 5px;
+}
+
+div.container-radio label{
+    margin-right: 20px;
+    color: #f8f1ff;
+    text-transform: uppercase;
+}
+
+div.container-select-type{
+    display: flex;
+    align-items: center;
+}
+
+div.container-select-type .img-select{
+    display: flex;
+    align-items: center;
+}
+
+div.container-select-type .img-select article{
+    margin-right: 10px;
+}
+
+div.container-select-type label{
+    color: #f8f1ff;
+    text-transform: capitalize;
+}
+
+div.container-select-type input{
+    width: 100px;
+}
+
+div.container-select-type .video-select{
+    display: flex;
+    align-items: center;
+}
+
+div.container-select-type .video-select article{
+    margin-right: 10px;
+}
+
+div.options button{
+    width: 100px;
+    padding: 5px 10px;
+    border: #52489c 1px solid;
+    border-radius: 5px;
+    background-color: #f8f1ff;
+
+    color: #52489c;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div.content{
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1B998B;
+}
+
+div.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content ul img{
+    width: 100%;
+}
+
+div.content ul video{
+    width: 100%;
+}
+
+.hidden{
+    display: none !important;
+}
